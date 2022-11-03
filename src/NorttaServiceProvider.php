@@ -17,9 +17,9 @@ class NorttaServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__.'/config/nortta.php', 'nortta');
+        $this->mergeConfigFrom(__DIR__.'/../config/nortta.php', 'nortta');
 
-        $this->loadRoutesFrom(__DIR__.'/routes/nortta.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes/nortta.php');
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
