@@ -1,6 +1,6 @@
 <?php
 
-namespace Nortta\Seeders;
+namespace Nortta\Laravel\Seeders;
 
 use Illuminate\Database\Seeder;
 use Nortta\Laravel\Page;

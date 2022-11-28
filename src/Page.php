@@ -4,7 +4,7 @@ namespace Nortta\Laravel;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Nortta\Factories\PageFactory;
+use Nortta\Laravel\Factories\PageFactory;
 
 class Page extends Model
 {

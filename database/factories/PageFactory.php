@@ -1,15 +1,18 @@
 <?php
 
-namespace Nortta\Factories;
+namespace Nortta\Laravel\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
+use Nortta\Laravel\Page;
 
 class PageFactory extends Factory
 {
+    protected $model = Page::class;
+
     public function definition()
     {
-        $title = ucwords($this->faker->words(3));
+        $title = ucwords($this->faker->words(3, true));
 
         $paragraphs = $this->faker->paragraphs(5);
 

@@ -5,8 +5,8 @@
     "autoload": {
         "psr-4": {
             "Nortta\\Laravel\\": "src/",
-            "Nortta\\Factories\\": "database/factories",
-            "Nortta\\Seeders\\": "database/seeders"
+            "Nortta\\Laravel\\Factories\\": "database/factories",
+            "Nortta\\Laravel\\Seeders\\": "database/seeders"
         }
     },
     "require": {
