@@ -4,7 +4,9 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Nortta\\Laravel\\": "src/"
+            "Nortta\\Laravel\\": "src/",
+            "Nortta\\Factories\\": "database/factories",
+            "Nortta\\Seeders\\": "database/seeders"
         }
     },
     "require": {
